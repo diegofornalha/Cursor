@@ -1,1 +1,1 @@
-{"timestamp":1737420804190,"paths":["./cursor_cache_cleaner.py","./.gitignore"]}
+{"timestamp":1737420804190,"paths":["./config.json","./cursor_cache_cleaner.py","./.gitignore"]}

@@ -43,3 +43,10 @@ WebStorage/
 .updaterId
 Trust Tokens
 /Cache/Cache_Data
+
+# Adicionar ao .gitignore existente
+*.log.*
+config.local.json
+__pycache__/
+*.pyc
+.env

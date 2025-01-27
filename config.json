@@ -1,0 +1,19 @@
+{
+    "clean_interval_days": 7,
+    "max_log_size_mb": 10,
+    "directories_to_clean": [
+        "Cache_Data",
+        "CachedData",
+        "CachedExtensionVSIXs",
+        "CachedProfilesData",
+        "Code Cache",
+        "DawnGraphiteCache",
+        "DawnWebGPUCache",
+        "GPUCache",
+        "Local Storage",
+        "Session Storage",
+        "Shared Dictionary"
+    ],
+    "backup_before_clean": false,
+    "notify_on_completion": true
+} 
