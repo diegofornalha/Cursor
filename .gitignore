@@ -42,3 +42,4 @@ WebStorage/
 # Outros arquivos específicos do Cursor
 .updaterId
 Trust Tokens
+/Cache/Cache_Data
