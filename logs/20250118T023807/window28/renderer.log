@@ -1,0 +1,11 @@
+2025-01-26 22:04:22.427 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-26 22:04:22.427 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-26 22:04:22.427 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-26 22:04:22.442 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-01-26 22:04:22.650 [info] Started local extension host with pid 27828.
+2025-01-26 22:04:22.781 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-26 22:04:25.687 [info] [perf] Render performance baseline is 23ms
+2025-01-26 22:04:33.084 [error] Error while registering log channel file:///Users/chain/Library/Application%20Support/Cursor/logs/20250118T023807/main.log Timed out while waiting for file to be created
+2025-01-26 22:04:33.085 [error] Error while registering log channel file:///Users/chain/Library/Application%20Support/Cursor/logs/20250118T023807/ptyhost.log Timed out while waiting for file to be created
+2025-01-26 22:04:33.085 [error] Error while registering log channel file:///Users/chain/Library/Application%20Support/Cursor/logs/20250118T023807/userDataSync.log Timed out while waiting for file to be created
+2025-01-26 22:04:33.085 [error] Error while registering log channel file:///Users/chain/Library/Application%20Support/Cursor/logs/20250118T023807/sharedprocess.log Timed out while waiting for file to be created

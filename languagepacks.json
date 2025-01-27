@@ -1,0 +1,30 @@
+{
+  "pt-br": {
+    "installed": true,
+    "default": true,
+    "name": "Português (Brasil)",
+    "localizedName": "Português do Brasil",
+    "translations": {
+      "enabled": true,
+      "quality": "stable"
+    },
+    "spellcheck": {
+      "enabled": true,
+      "dictionaries": ["pt-BR"],
+      "language": "pt-BR"
+    },
+    "dateFormat": "dd/MM/yyyy",
+    "timeFormat": "HH:mm:ss",
+    "numberFormat": {
+      "decimal": ",",
+      "thousands": ".",
+      "currency": "R$"
+    },
+    "region": "BR",
+    "fallback": "en",
+    "suggestions": {
+      "enabled": true,
+      "fromLocale": true
+    }
+  }
+}
