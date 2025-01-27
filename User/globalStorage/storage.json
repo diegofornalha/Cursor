@@ -18,27 +18,7 @@
             "file:///Users/chain/Desktop/task-manager": "__default__profile__",
             "file:///Users/chain": "__default__profile__"
         },
-        "emptyWindows": {
-            "1737180740687": "__default__profile__",
-            "1737180781757": "__default__profile__",
-            "1737182356528": "__default__profile__",
-            "1737182462115": "__default__profile__",
-            "1737253457361": "__default__profile__",
-            "1737275656666": "__default__profile__",
-            "1737278254906": "__default__profile__",
-            "1737346781126": "__default__profile__",
-            "1737349608541": "__default__profile__",
-            "1737353711300": "__default__profile__",
-            "1737353791546": "__default__profile__",
-            "1737354011746": "__default__profile__",
-            "1737354858702": "__default__profile__",
-            "1737354878598": "__default__profile__",
-            "1737364177275": "__default__profile__",
-            "1737364653001": "__default__profile__",
-            "1737411097965": "__default__profile__",
-            "1737611658680": "__default__profile__",
-            "1737668614851": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -49,110 +29,13 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///Applications"
-            },
-            {
                 "folderUri": "file:///Users/chain/Library/Application%20Support/Cursor"
             },
             {
                 "folderUri": "file:///Users/chain"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/Projeto"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/safra"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/PhizAPI"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/3-d-scene-demo"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/3-d-scene-demo/coflow_robo"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/3-d-scene-demo%2003.12.33"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/coflow_robo"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/coflow_robo/coflow-tools"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/project"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/coflow-tools"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/VOKAL"
-            },
-            {
-                "folderUri": "file:///Users/chain/Desktop/task-manager"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1737180740687"
-            },
-            {
-                "backupFolder": "1737180781757"
-            },
-            {
-                "backupFolder": "1737182356528"
-            },
-            {
-                "backupFolder": "1737182462115"
-            },
-            {
-                "backupFolder": "1737253457361"
-            },
-            {
-                "backupFolder": "1737275656666"
-            },
-            {
-                "backupFolder": "1737278254906"
-            },
-            {
-                "backupFolder": "1737346781126"
-            },
-            {
-                "backupFolder": "1737349608541"
-            },
-            {
-                "backupFolder": "1737353711300"
-            },
-            {
-                "backupFolder": "1737353791546"
-            },
-            {
-                "backupFolder": "1737354011746"
-            },
-            {
-                "backupFolder": "1737354858702"
-            },
-            {
-                "backupFolder": "1737354878598"
-            },
-            {
-                "backupFolder": "1737364177275"
-            },
-            {
-                "backupFolder": "1737364653001"
-            },
-            {
-                "backupFolder": "1737411097965"
-            },
-            {
-                "backupFolder": "1737611658680"
-            },
-            {
-                "backupFolder": "1737668614851"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "lastKnownMenubarData": {
@@ -211,6 +94,16 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "path": "/Users/chain/Library/Application Support/Cursor",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Library/Application Support/Cursor"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/Users/chain",
                                         "scheme": "file"
                                     },
@@ -246,16 +139,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Desktop/coflow-tools"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/chain/Library/Application Support/Cursor",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Library/Application Support/Cursor"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -386,13 +269,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -589,7 +465,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Full Screen"
+                                    "label": "&&Full Screen",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
@@ -619,6 +496,11 @@
                                 {
                                     "id": "workbench.action.togglePanel",
                                     "label": "&&Panel"
+                                },
+                                {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -814,13 +696,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -897,6 +772,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -920,7 +799,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -928,8 +808,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1339,6 +1218,10 @@
                         "label": "Editor Playgrou&&nd"
                     },
                     {
+                        "id": "workbench.action.getStartedWithAccessibilityFeatures",
+                        "label": "Get Started with Accessibility Features"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1610,11 +1493,6 @@
                 "isNative": false,
                 "userSettingsLabel": "cmd+r cmd+\\"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "⌘R ⇧⌘\\",
-                "isNative": false,
-                "userSettingsLabel": "cmd+r shift+cmd+\\"
-            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "⌘R O",
                 "isNative": false,
@@ -1857,19 +1735,23 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#181818",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#d6d6dd",
-            "background": "#181818",
-            "editorBackground": "#181818",
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
             "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
             "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
             "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
             "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#181818"
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1883,14 +1765,16 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///Users/chain",
-            "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/7dcedc465fb2703036259491925103e5",
+            "folder": "file:///Users/chain/Library/Application%20Support/Cursor",
+            "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/cca7ff46c4ef990fe8be6b4b061cfe04",
             "uiState": {
-                "mode": 1,
-                "x": 223,
-                "y": 94,
+                "mode": 3,
+                "display": 1,
                 "width": 1024,
-                "height": 768
+                "height": 768,
+                "x": 253,
+                "y": 124,
+                "zoomLevel": 2
             }
         },
         "openedWindows": [

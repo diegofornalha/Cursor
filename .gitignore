@@ -1,0 +1,44 @@
+# Arquivos de sistema e configuração
+.gitattributes
+.com.todesktop.*
+code.lock
+languagepacks.json
+Network Persistent State*
+SharedStorage*
+Preferences
+TransportSecurity
+
+# Diretórios de cache e armazenamento
+Backups/
+blob_storage/
+Cache_Data/
+CachedData/
+CachedExtensionVSIXs/
+CachedProfilesData/
+Code Cache/
+Crashpad/
+DawnGraphiteCache/
+DawnWebGPUCache/
+GPUCache/
+Local Storage/
+logs/
+sentry/
+Service Worker/
+Session Storage/
+Shared Dictionary/
+shared_proto_db/
+User/
+VideoDecodeStats/
+WebStorage/
+
+# Arquivos temporários e de cache
+*.log
+*.cache
+*.dat
+*.wal
+*.db
+*.db-*
+
+# Outros arquivos específicos do Cursor
+.updaterId
+Trust Tokens
