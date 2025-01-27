@@ -10,5 +10,10 @@
     "cursor.terminal.usePreviewBox": true,
     "editor.language": "pt-br",
     "spellright.language": ["pt-BR"],
-    "spellright.documentTypes": ["markdown", "latex", "plaintext"]
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "php.validate.executablePath": ""
 }

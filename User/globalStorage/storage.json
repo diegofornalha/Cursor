@@ -16,7 +16,8 @@
             "file:///Users/chain/Library/Application%20Support/Cursor": "__default__profile__",
             "file:///Users/chain/Desktop/VOKAL": "__default__profile__",
             "file:///Users/chain/Desktop/task-manager": "__default__profile__",
-            "file:///Users/chain": "__default__profile__"
+            "file:///Users/chain": "__default__profile__",
+            "file:///Users/chain/Desktop/vokalmusic": "__default__profile__"
         },
         "emptyWindows": {
             "1737943915528": "__default__profile__"
@@ -35,6 +36,9 @@
             },
             {
                 "folderUri": "file:///Users/chain"
+            },
+            {
+                "folderUri": "file:///Users/chain/Desktop/vokalmusic"
             }
         ],
         "emptyWindows": [
@@ -43,7 +47,7 @@
             }
         ]
     },
-    "windowControlHeight": 50,
+    "windowControlHeight": 35,
     "lastKnownMenubarData": {
         "menus": {
             "File": {
@@ -94,6 +98,16 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/chain/Desktop/vokalmusic",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/vokalmusic"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -184,16 +198,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Desktop/3-d-scene-demo"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/chain/Desktop/3-d-scene-demo/coflow_robo",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/3-d-scene-demo/coflow_robo"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -293,7 +297,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -498,8 +503,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
-                                    "label": "Secondary Si&&de Bar",
-                                    "checked": true
+                                    "label": "Secondary Si&&de Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -508,8 +512,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -831,8 +834,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1765,6 +1767,15 @@
             "statusBarBackground": "#181818",
             "statusBarBorder": "#2b2b2b",
             "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
         }
     },
     "windowsState": {
@@ -1781,32 +1792,6 @@
                 "zoomLevel": 2
             }
         },
-        "openedWindows": [
-            {
-                "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/1737943915528",
-                "uiState": {
-                    "mode": 1,
-                    "display": 1,
-                    "width": 1024,
-                    "height": 768,
-                    "x": 223,
-                    "y": 94,
-                    "zoomLevel": 2
-                }
-            },
-            {
-                "folder": "file:///Users/chain/Library/Application%20Support/Cursor",
-                "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/cca7ff46c4ef990fe8be6b4b061cfe04",
-                "uiState": {
-                    "mode": 3,
-                    "display": 1,
-                    "width": 1024,
-                    "height": 768,
-                    "x": 253,
-                    "y": 124,
-                    "zoomLevel": 2
-                }
-            }
-        ]
+        "openedWindows": []
     }
 }
