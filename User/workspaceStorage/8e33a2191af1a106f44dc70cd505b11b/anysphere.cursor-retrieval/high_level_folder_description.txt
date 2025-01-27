@@ -1,1 +1,0 @@
-{"timestamp":1737420804190,"paths":["./cursor_cache_cleaner.py","./config.json","./.gitignore","./.vscode/settings.json"]}

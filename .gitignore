@@ -50,3 +50,108 @@ config.local.json
 __pycache__/
 *.pyc
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs e databases
+*.log
+*.sqlite
+*.db
+
+# Arquivos de cache do Cursor
+CachedProfilesData/
+Local Storage/
+Session Storage/
+Network Persistent State
+Preferences
+TransportSecurity
+User/History/
+User/globalStorage/
+User/workspaceStorage/
+code.lock
+config.json
+sentry/
+Cookies*
+index/
+
+# Arquivos específicos do projeto
+config.ts
+types/
+package.json
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Cursor specific
+Cache/
+CachedData/
+CachedExtensionVSIXs/
+CachedProfilesData/
+Code Cache/
+Crashpad/
+DawnGraphiteCache/
+DawnWebGPUCache/
+GPUCache/
+Local Storage/
+Network Persistent State*
+Preferences
+Service Worker/
+Session Storage/
+Shared Dictionary/
+SharedStorage*
+TransportSecurity
+Trust Tokens
+VideoDecodeStats/
+WebStorage/
+blob_storage/
+index/
+logs/
+sentry/
+shared_proto_db/
+
+# Misc
+*.log
+*.sqlite3
+.DS_Store
+*.sock
+code.lock
+config.json
+languagepacks.json
