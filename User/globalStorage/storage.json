@@ -18,7 +18,9 @@
             "file:///Users/chain/Desktop/task-manager": "__default__profile__",
             "file:///Users/chain": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1737943915528": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -35,9 +37,13 @@
                 "folderUri": "file:///Users/chain"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1737943915528"
+            }
+        ]
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 50,
     "lastKnownMenubarData": {
         "menus": {
             "File": {
@@ -269,6 +275,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 }
@@ -485,7 +498,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
-                                    "label": "Secondary Si&&de Bar"
+                                    "label": "Secondary Si&&de Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -494,7 +508,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -798,7 +813,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -885,45 +901,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1143,8 +1168,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1759,6 +1783,18 @@
         },
         "openedWindows": [
             {
+                "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/1737943915528",
+                "uiState": {
+                    "mode": 1,
+                    "display": 1,
+                    "width": 1024,
+                    "height": 768,
+                    "x": 223,
+                    "y": 94,
+                    "zoomLevel": 2
+                }
+            },
+            {
                 "folder": "file:///Users/chain/Library/Application%20Support/Cursor",
                 "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/cca7ff46c4ef990fe8be6b4b061cfe04",
                 "uiState": {
@@ -1769,17 +1805,6 @@
                     "x": 253,
                     "y": 124,
                     "zoomLevel": 2
-                }
-            },
-            {
-                "folder": "file:///Users/chain",
-                "backupPath": "/Users/chain/Library/Application Support/Cursor/Backups/7dcedc465fb2703036259491925103e5",
-                "uiState": {
-                    "mode": 1,
-                    "x": 223,
-                    "y": 94,
-                    "width": 1024,
-                    "height": 768
                 }
             }
         ]

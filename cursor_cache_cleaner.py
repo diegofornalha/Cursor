@@ -44,9 +44,24 @@ def get_dir_size(path):
                 total += get_dir_size(entry.path)
     return total
 
+def generate_report(total_size_before, total_size_after, cursor_running):
+    """Gera um relatório com informações sobre a limpeza do cache"""
+    space_saved = (total_size_before - total_size_after) / (1024 * 1024)  # MB
+    report = f"""
+    Relatório de Limpeza de Cache
+    ----------------------------
+    Data e Hora: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+    Cursor em Execução: {'Sim' if cursor_running else 'Não'}
+    Tamanho do Cache Antes: {total_size_before / (1024 * 1024):.2f} MB
+    Tamanho do Cache Depois: {total_size_after / (1024 * 1024):.2f} MB
+    Espaço Economizado: {space_saved:.2f} MB
+    """
+    logging.info(report)
+
 def clean_cache():
     """Limpa os diretórios de cache do Cursor"""
-    if is_cursor_running():
+    cursor_running = is_cursor_running()
+    if cursor_running:
         logging.warning("Cursor está em execução. Recomendado fechar antes da limpeza.")
         return
 
@@ -102,8 +117,7 @@ def clean_cache():
                 logging.error(f"Erro ao recriar diretório {cache_dir}: {str(e)}")
 
     total_size_after = get_dir_size(cursor_path)
-    space_saved = (total_size_before - total_size_after) / (1024 * 1024)  # MB
-    logging.info(f"Espaço economizado: {space_saved:.2f} MB")
+    generate_report(total_size_before, total_size_after, cursor_running)
 
 def rotate_log_file(max_size_mb=10):
     """Rotaciona o arquivo de log se exceder o tamanho máximo"""
