@@ -40,4 +40,4 @@ O servidor estará disponível em `http://localhost:8000`
     "timestamp": "2024-03-21T10:00:00.000000",
     "service": "Cline API"
   }
-  ``` 
+  ```
