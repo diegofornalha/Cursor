@@ -1,3 +1,43 @@
+# Cursor + Deepseek Optimized Setup
+
+Configuração otimizada do Cursor IDE com Deepseek para máxima performance.
+
+## Características
+
+- ⚡️ Modo rápido sempre ativo
+- 🔄 Cache otimizado
+- 🚀 Respostas rápidas priorizadas
+- 🛡️ Configurações seguras
+
+## Instalação
+
+1. Clone o repositório
+2. Execute o script de inicialização:
+```bash
+chmod +x init.sh
+./init.sh
+```
+
+## Comandos Úteis
+
+- `cursor-clean`: Limpa cache e logs
+- `cursor-status`: Mostra status do ambiente
+- `cursor-update`: Atualiza o Cursor
+
+## Configuração
+
+O projeto usa as seguintes configurações otimizadas:
+- Context Length: 2048 tokens
+- Max Tokens: 2048
+- Request Timeout: 30s
+- Cache TTL: 3600s
+
+## Manutenção
+
+- Cache e logs são limpos automaticamente após 7 dias
+- Use `cursor-clean` para limpeza manual
+- Verifique `cursor-status` regularmente
+
 # API de Usuários com FastAPI
 
 API RESTful moderna usando FastAPI, SQLAlchemy e Pydantic.
