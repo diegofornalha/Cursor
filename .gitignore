@@ -155,3 +155,4 @@ shared_proto_db/
 code.lock
 config.json
 languagepacks.json
+/CachedConfigurations
